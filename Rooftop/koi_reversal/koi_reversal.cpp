@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void swap(int* a, int* b){int temp;temp = *a;*a = *b;*b = temp;}
+void swap(int* a, int* b){int t;t = *a;*a = *b;*b = t;}
 
 int main(){
 	int in1, in2;
